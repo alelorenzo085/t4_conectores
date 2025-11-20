@@ -14,6 +14,13 @@ public class Estudiante {
         super();
     }
 
+    /** 
+     * @param id
+     * @param nombre
+     * @param nacimiento
+     * @param centro
+     * @return Estudiante
+     */
     public Estudiante initialize (Integer id, String nombre, LocalDate nacimiento, Centro centro) {
         setId(id);
         setNombre(nombre);
@@ -26,44 +33,74 @@ public class Estudiante {
         initialize(id, nombre, nacimiento, centro);
     }
 
+    /** 
+     * @return Integer
+     */
     public Integer getId() {
         return id;
     }
 
+    /** 
+     * @param id
+     */
     public void setId(Integer id) {
         if (this.id != null) throw new IllegalStateException("El identificador no puede modificarse");
         this.id = id;
     }
 
+    /** 
+     * @return String
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /** 
+     * @param nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /** 
+     * @return LocalDate
+     */
     public LocalDate getNacimiento() {
         return nacimiento;
     }
 
+    /** 
+     * @param nacimiento
+     */
     public void setNacimiento(LocalDate nacimiento) {
         if (nacimiento == null) throw new IllegalArgumentException("La fecha de nacimiento es obligatoria.");
         this.nacimiento = nacimiento;
     }
 
+    /** 
+     * @return Centro
+     */
     public Centro getCentro() {
         return centro;
     }
 
+    /** 
+     * @param centro
+     */
     public void setCentro(Centro centro) {
         this.centro = centro;
     }
 
+    /** 
+     * @return int
+     */
     public int getEdad() {
         return Period.between(LocalDate.now(), nacimiento).getYears();
     }
 
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         String nombreCentro = centro == null ? "?": centro.getNombre();

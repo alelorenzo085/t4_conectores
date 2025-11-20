@@ -84,14 +84,24 @@ public class ConnectionPool implements AutoCloseable {
             .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 
+    /** 
+     * @return Connection
+     * @throws SQLException
+     */
     public Connection getConnection() throws SQLException {
          return ds.getConnection();
     }
 
+    /** 
+     * @return HikariDataSource
+     */
     public HikariDataSource getDataSource() {
         return ds;
     }
 
+    /** 
+     * @return boolean
+     */
     public boolean isActive() {
         return !ds.isClosed();
     }

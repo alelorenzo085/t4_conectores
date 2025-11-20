@@ -18,6 +18,11 @@ import com.edu.Chorrada;
 
 public class Main {
 
+    /** 
+     * @param rs
+     * @return Centro
+     * @throws SQLException
+     */
     public static Centro resultSetToCentro(ResultSet rs) throws SQLException {
         int id = rs.getInt("id");
         String nombre = rs.getString("nombre");
@@ -25,6 +30,11 @@ public class Main {
         return new Centro(id, nombre, titularidad);
     }
 
+    /** 
+     * @param rs
+     * @return Estudiante
+     * @throws SQLException
+     */
     public static Estudiante resultSetToEstudiante(ResultSet rs) throws SQLException {
         int id = rs.getInt("id_estudiante");
         String nombre = rs.getString("nombre");
@@ -45,6 +55,9 @@ public class Main {
         return new Estudiante(id, nombre, nacimiento, centro);
     }
 
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         
         final String dbProtocol = "jdbc:sqlite:";
