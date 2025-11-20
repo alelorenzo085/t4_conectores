@@ -21,7 +21,7 @@ _Este repositorio es una prueba realizada en clase realizando pool de conexiones
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles
+Este proyecto está bajo la Licencia [MIT] - mira el archivo [LICENSE](LICENSE) para detalles
 
 ## Utilidades
 
