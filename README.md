@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Pool de conexiones con JDBC (TEMA 4)
 
-_Pool de conexiones con JDBC_
+```ACCESO A DATOS```
 
 ## Comenzando 🚀
 
