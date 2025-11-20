@@ -24,11 +24,8 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 **Alejandro Lorenzo** - *Estudiante* - [alelorenzo085](https://github.com/alelorenzo085)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
