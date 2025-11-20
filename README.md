@@ -31,3 +31,8 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles
 
+## Utilidades
+
+Para la elaboración del README [README.md](README.md) se ha utilizado de plantilla el recurso de
+[Andrés Villanueva](https://gist.githubusercontent.com/Villanuevand/6386899f70346d4580c723232524d35a/raw/fa38ee8c23c319e01e64667af4a0dc7885ea9a15/README-espa%25C3%25B1ol.md)
+
