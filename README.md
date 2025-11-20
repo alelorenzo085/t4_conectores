@@ -6,20 +6,12 @@
 
 _Este repositorio es una prueba realizada en clase realizando pool de conexiones._
 
-### Pre-requisitos 📋
-
-_Visual Studio Code_
-_JDBC_
-_SQLite_
-
-
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Visual Studio Code](http://www.code.visualstudio.com/) - IDE utilizado
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [JDBC](https://www.oracle.com/es/database/technologies/appdev/jdbc.html) - Usado para manejar BBDD
+* [SQLite](https://sqlite.org) - Base de Datos implementada en el código
 
 
 ## Autores ✒️
